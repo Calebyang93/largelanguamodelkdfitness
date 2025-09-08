@@ -1,0 +1,47 @@
+- model: auth.supplements
+  pk: 1
+  fields:
+    username: "omega3"
+    email: "omega3@kdfitness.com"
+    first_name: "Omega"
+    last_name: "Three"
+
+- model: auth.supplements
+  pk: 2
+  fields:
+    username: "calcium"
+    email: "calcium@kdfitness.com"
+    first_name: "Calcium"
+    last_name: "Supplements"
+
+- model: auth.supplements
+  pk: 3
+  fields: 
+    username: "Multivitamins"
+    email: "multivitamins@kdfitness.com"
+    first_name: "Multivitamins"
+    last_name: "Supplements"
+  
+- model: auth.supplements
+  pk: 4 
+  fields: 
+    username: "Sleeping Supplements"
+    email: "sleepingsupplements@kdfitness.com"
+    first_name: "Sleeping"
+    last_name: "Supplements"
+
+- model: auth.supplements
+  pk: 5
+  fields: 
+    username: "Probiotics"
+    email: "probioticssupplements@kdfitness.com"
+    first_name: "Padle"
+    last_name: "Padels"
+
+- model: auth.supplements
+  pk: 6
+  fields: 
+    username: "minerals"
+    email: "mineralssupplements@kdfitness.com"
+    first_name: "Mineral"
+    last_name: "Supplements"

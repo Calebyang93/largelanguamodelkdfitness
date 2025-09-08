@@ -1,0 +1,39 @@
+- model: auth.CustomerService
+  pk: 1
+  fields:
+    username: "china customer service"
+    email: "customerservice@kdfitness.cn"
+    first_name: "Customer Service"
+    last_name: "China"
+
+- model: auth.CustomerService
+  pk: 2
+  fields:
+    username: "singapore customer service"
+    email: "customerservice@kdfitness.sg"
+    first_name: "Customer Service"
+    last_name: "Singapore"
+
+- model: auth.CustomerService
+  pk: 3
+  fields: 
+    username: "saudi arabia customer service"
+    email: "customerservice@kdfitness.ksa"
+    first_name: "Customer Service"
+    last_name: "Kingdom Saudi Arabia"
+
+- model: auth.CustomerService 
+  pk: 4
+  fields: 
+    username: "United Arab Emirates Customer Service."
+    email: "customerservice@kdfitness.ae"
+    first_name: "Customer Service"
+    last_name: "United Arab Emirates"
+
+- model: auth.CustomerService 
+  pk: 5 
+  fields: 
+    username: "Cambodia Customer Service"
+    email: "customerservice@kdfitness.kh"
+    first_name: "Customer Service"
+    last_name: "Cambodia"

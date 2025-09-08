@@ -1,0 +1,39 @@
+- model: auth.weights
+  pk: 1
+  fields:
+    username: "kettlebell"
+    email: "kettlebell@kdfitness.com"
+    first_name: "Kettlebell"
+    last_name: "Weights"
+
+- model: auth.weights 
+  pk: 2
+  fields:
+    username: "dumbbells"
+    email: "dumbbell@kdfitness.com"
+    first_name: "Dumbbell"
+    last_name: "Weights"
+
+- model: auth.weights
+  pk: 3
+  fields: 
+    username: "Barbell"
+    email: "barbells@kdfitness.com"
+    first_name: "Barbell"
+    last_name: "Weights"
+  
+- model: auth.weights
+  pk: 4 
+  fields: 
+    username: "Weight Plates"
+    email: "weightplates@kdfitness.com"
+    first_name: "Weight"
+    last_name: "Plates"
+
+- model: auth.weights
+  pk: 5
+  fields: 
+    username: "Bar and Handles"
+    email: "barandhandles@kdfitness.com"
+    first_name: "Bar And"
+    last_name: "Handles"

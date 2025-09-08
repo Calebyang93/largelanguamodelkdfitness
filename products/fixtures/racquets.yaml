@@ -1,0 +1,55 @@
+- model: auth.racquets
+  pk: 1
+  fields:
+    username: "tennisracquets"
+    email: "tennisracquets@kdfitness.com"
+    first_name: "Tennis"
+    last_name: "Racquets"
+
+- model: auth.racquets
+  pk: 2
+  fields:
+    username: "badmintonracquets"
+    email: "badmintonracquets@kdfitness.com"
+    first_name: "Badminton"
+    last_name: "Racquets"
+
+- model: auth.racquets
+  pk: 3
+  fields: 
+    username: "Squash Racquets"
+    email: "squashracquets@kdfitness.com"
+    first_name: "Squash"
+    last_name: "Racquets"
+  
+- model: auth.racquets
+  pk: 4 
+  fields: 
+    username: "Pickleball Padels"
+    email: "pickleballpadels@kdfitness.com"
+    first_name: "Pickelball"
+    last_name: "Padels"
+
+- model: auth.racquets
+  pk: 5
+  fields: 
+    username: "Padle Padels"
+    email: "padlepadels@kdfitness.com"
+    first_name: "Padle"
+    last_name: "Padels"
+
+- model: auth.racquets
+  pk: 6 
+  fields: 
+    username: "Baseball Bats"
+    email: "baseballbats@kdfitness.com"
+    first_name: "Baseball"
+    last_name: "Bats"
+
+- model: auth.racquets
+  pk: 7 
+  fields: 
+    username: "Floorball Sticks"
+    email: "floorballsticks@kdfitness.com"
+    first_name: "floorball"
+    last_name: "sticks"

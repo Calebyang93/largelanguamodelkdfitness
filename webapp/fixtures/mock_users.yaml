@@ -1,0 +1,23 @@
+- model: auth.User
+  pk: 1
+  fields:
+    username: "marketing"
+    email: "marketing@kdfintess.com"
+    first_name: "Marketing"
+    last_name: "Team"
+
+- model: auth.User
+  pk: 2
+  fields:
+    username: "sales"
+    email: "sales@kdfitness.com"
+    first_name: "Sales"
+    last_name: "Team"
+
+- model: auth.User
+  pk: 3
+  fields: 
+    username: dataresearch
+    email: "dataresearch@kdfitness.com"
+    first_name: "Data"
+    last_name: "Research"
