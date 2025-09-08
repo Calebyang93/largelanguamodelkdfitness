@@ -5,6 +5,7 @@
     email: "kettlebell@kdfitness.com"
     first_name: "Kettlebell"
     last_name: "Weights"
+    brand: "ironbull"
 
 - model: auth.weights 
   pk: 2
@@ -13,6 +14,7 @@
     email: "dumbbell@kdfitness.com"
     first_name: "Dumbbell"
     last_name: "Weights"
+    brand: "bowflex"
 
 - model: auth.weights
   pk: 3
@@ -21,6 +23,7 @@
     email: "barbells@kdfitness.com"
     first_name: "Barbell"
     last_name: "Weights"
+    brand: "eleiko"
   
 - model: auth.weights
   pk: 4 
@@ -29,6 +32,7 @@
     email: "weightplates@kdfitness.com"
     first_name: "Weight"
     last_name: "Plates"
+    brand: "capbarbell"
 
 - model: auth.weights
   pk: 5
@@ -37,3 +41,4 @@
     email: "barandhandles@kdfitness.com"
     first_name: "Bar And"
     last_name: "Handles"
+    brand: "roguefitnes"
