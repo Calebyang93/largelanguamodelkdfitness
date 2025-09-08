@@ -1,0 +1,55 @@
+- model: auth.sportswear
+  pk: 1
+  fields:
+    username: "runningshirtsmale"
+    email: "malerunningshirts@kdfitness.com"
+    first_name: "Running Shirts"
+    last_name: "Male"
+
+- model: auth.sportswear
+  pk: 2
+  fields:
+    username: "runningshirtsfemale"
+    email: "femalerunningshirts@kdfitness.com"
+    first_name: "Running Shirts"
+    last_name: "Female"
+
+- model: auth.sportswear
+  pk: 3
+  fields: 
+    username: "swimwearmale"
+    email: "swimwearmale@kdfitness.com"
+    first_name: "Swimwear"
+    last_name: "Male"
+  
+- model: auth.sportwear
+  pk: 4 
+  fields: 
+    username: "Swimwear Female"
+    email: "swimwearfemale@kdfitness.com"
+    first_name: "Swimwear"
+    last_name: "Female"
+
+- model: auth.sportswear
+  pk: 5
+  fields: 
+    username: "Running shorts"
+    email: "runningshorts@kdfitness.com"
+    first_name: "Running"
+    last_name: "Shorts"
+
+- model: auth.sportswear
+  pk: 6
+  fields: 
+    username: "trackpants male"
+    email: "trackpantsmale@kdfitness.com"
+    first_name: "Track Pants"
+    last_name: "Male"
+
+- model: auth.sportswear
+  pk: 7 
+  fields: 
+    username: "trackpants female"
+    email: "trackpantsfemale@kdftiness.com"
+    first_name: "Track Pants"
+    last_name: "Female"

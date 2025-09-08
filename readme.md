@@ -5,6 +5,8 @@
 
 # Running django project 
 1. run ```python manage.py runserver on kidfitness directory in your project 
+2. run ```python manage.py createsuperuser on kdfintess directory in project to create super user to add tables of mock data on localhost:8080
+3. run ``python manage.py makemigrations and ```python manage.py migrate to apply database migrations.
 
 # Django 
 More information on django: 
@@ -42,7 +44,7 @@ This project is run on django. future iterations will implement large language m
 1. Setting up the Environment:
 Install JupyterLab/Jupyter Notebook: Ensure you have a recent version (JupyterLab 4.x or Jupyter Notebook 7+). You can install it using pip:
 Code
-
+    pip3 install jupyter
     pip install jupyterlab
 Create a Virtual Environment (Recommended): Isolate your project's dependencies to avoid conflicts.
 Code
@@ -61,7 +63,7 @@ Install Jupyter AI (Optional but Recommended): For an enhanced LLM experience wi
 Code
 
     pip install "jupyter-ai[all]"
-2. Building or Utilizing the LLM:
+# 2. Building or Utilizing the LLM:
 Data Preparation:
 Load and preprocess your text data within Jupyter Notebook cells. This may involve tokenization, creating embeddings, and preparing input/target pairs.
 Model Definition:
