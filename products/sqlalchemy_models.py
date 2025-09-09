@@ -1,6 +1,7 @@
-from django.db import models
-
+from django.db import models 
+# from models import Supplements, CustomerService, MealPortionPlan, Racquets,Weights,salestracking
 # Create your models here.
+
 class CustomerService(models.Model):
     name = models.TextField(null=False)
     contactno = models.CharField(primary_key=True, null=False)
@@ -66,5 +67,3 @@ class salestracking(models.Model):
     remarks = models.TextField(null=False)
     dateentered= models.DateField(null=False)
     department = models.CharField(max_length=50,null=False)
-    
-    
