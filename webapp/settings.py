@@ -78,7 +78,27 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+    },
+    'training_db': {
+        'ENGINE': 'sql_server.pyodbc',
+        'NAME': 'kdfitness',
+        'USER': 'research',
+        'PASSWORD': 'buyKDFitnessNow!',
+        'HOST': '',
+        'PORT': '1433',
+        'OPTIONS': {
+            'driver': 'ODBC Driver 17 for SQL Driver',
+        }, 
     }
+    # mysql database 
+    # 'analytics_db': {
+    #   'ENGINE': 'django.db.backends.mysql',
+    #   'NAME': 'salesanalytics_data',
+    #   'USER': 'sales',
+    #   'PASSWORD': 'h1sd!sdo2025',
+    #   'HOST': 'localhost',
+    #   'PORT': '3306'  
+    # }
 }
 
 
