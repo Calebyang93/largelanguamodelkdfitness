@@ -1,0 +1,48 @@
+- model: auth.salesdata
+  pk: 1
+  fields:
+    category: "supplements-sales-"
+    brand: ""
+    month: "Feb"
+    year: "2020"
+    email: "supplementsales@kdfintess.com"
+    salesvolume: "1000"
+    revenue: "50000.35 USD"
+  
+- model: auth.salesdata
+  pk: 2
+  fields:
+    category: "supplements-sales-"
+    brand: ""
+    month: "Feb"
+    year: "2020"
+    email: "sales@kdfitness.com"
+    salesvolume: "Sales"
+    revenue: "35400.35 USD"
+
+- model: auth.User
+  pk: 3
+  fields: 
+    username: dataresearch
+    email: "dataresearch@kdfitness.com"
+    first_name: "Data"
+    last_name: "Research"
+    number: "92312318"
+
+- model: auth.User
+  pk: 4 
+  fields: 
+    username: marketing
+    email: "marketing@kdfitness.com"
+    first_name: "Marketing"
+    last_name: ""
+    number: "81231098"
+
+- model: auth.User 
+  pk: 5
+  fields: 
+    username: sales
+    email: "sales@kdfitness.com"
+    first_name: "Sales"
+    last_name: ""
+    number: "61087536"
