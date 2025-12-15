@@ -1,7 +1,7 @@
 from firecrawl import Firecrawl 
 from pydantic import BaseModel 
 
-firecrawl = Firecrawl(api_key="fc-e9e5af0759ad4ba4be2008d7ed09b07d") # type: ignore
+firecrawl = Firecrawl(api_key="fc-apikey") # type: ignore
 # Scrape a website:
 doc = firecrawl.scrape("https://firecrawl.dev", formats=["markdown", "html"]) # type: ignore
 print(doc) # type: ignore
