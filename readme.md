@@ -179,3 +179,6 @@ Utilize the Jupyter AI chat interface for direct interaction with your loaded LL
 Visualization:
 Use libraries like Matplotlib to visualize training progress, attention mechanisms, or other model insights.
 By following these steps, you can effectively build, train, and interact with large language models within the interactive and iterative environment of a Jupyter Notebook.
+
+Check out firecrawl for implementing data crawl on authorised data science use cases. 
+https://firecrawl.dev
