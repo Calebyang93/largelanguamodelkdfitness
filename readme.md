@@ -89,6 +89,7 @@ wcwidth==0.2.13
 Werkzeug==3.0.3
 wrapt==1.12.1
 zipp==3.20.0
+py-firecrawl
 
 # Running django project 
 1. run ```python manage.py runserver on kidfitness directory in your project 
@@ -180,5 +181,11 @@ Visualization:
 Use libraries like Matplotlib to visualize training progress, attention mechanisms, or other model insights.
 By following these steps, you can effectively build, train, and interact with large language models within the interactive and iterative environment of a Jupyter Notebook.
 
-Check out firecrawl for implementing data crawl on authorised data science use cases. 
-https://firecrawl.dev
+For running firecrawl of data crawling with permission from other brands
+1. https://docs.firecrawl.dev/introduction
+For implementing of MCP servers with firecrawl check out this guide:
+2. https://docs.firecrawl.dev/mcp-server
+For Fate limits with firecrawl check out this guide:
+3. https://docs.firecrawl.dev/rate-limits**
+For more advanced scrapping guides in firecrawl, check this guide:
+4. https://docs.firecrawl.dev/advanced-scraping-guide**
